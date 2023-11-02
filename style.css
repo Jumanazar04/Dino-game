@@ -25,7 +25,7 @@
     position: absolute;
     top: 190px;
     right: 200px;
-    animation: nimation 4s infinite linear;
+    animation: animation 4s infinite linear;
 }
 
 @keyframes animation {
@@ -38,7 +38,7 @@
 }
 
 .boz{
-    animation: boz .8s linear;
+    animation: boz .7s linear;
 }
 
 @keyframes boz {

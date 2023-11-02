@@ -15,3 +15,12 @@ function boz (){
         dino.classList.remove('boz')
     }, 700)
 }
+
+let asAlive = setInterval( ()=>{
+    let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
+    let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'));
+
+    if(cactusLeft < 320 && cactusLeft > 250 && dinoTop >=170 ){
+        alert('jutkizding')
+    }
+})
