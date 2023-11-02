@@ -1,5 +1,6 @@
 const dino = document.querySelector('.dino');
 const cactus = document.querySelector('.cactus');
+const btn = document.querySelector('.btn');
 
 document.addEventListener('click', (event)=>{
     event.preventDefault()
@@ -21,6 +22,6 @@ let asAlive = setInterval( ()=>{
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'));
 
     if(cactusLeft < 320 && cactusLeft > 250 && dinoTop >=170 ){
-        alert('jutkizding')
+        alert("Yutqazdingiz, Do'stim")
     }
 })
