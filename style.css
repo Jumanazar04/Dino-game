@@ -5,10 +5,10 @@
     position: relative;
 }
 
-body{
+/* body{
     background: rgb(242,142,2);
     background: linear-gradient(90deg, rgba(242,142,2,1) 0%, rgba(242,223,2,1) 50%, rgba(255,153,0,1) 100%);
-}
+} */
 
 .dino{
     width: 100px;
